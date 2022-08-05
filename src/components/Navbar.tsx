@@ -8,7 +8,7 @@ const Navbar = () => {
         </div>
         <div className="flex-note gap-2">
             <div className="form-control">
-                <input type="text" placeholder="Search" className="input input-bordered" />
+                <input type="text" placeholder="Search" className="input input-bordered bg-white" />
             </div>
         </div>
     </div>

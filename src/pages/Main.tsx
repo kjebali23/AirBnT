@@ -1,4 +1,5 @@
 import React from 'react'
+import CardSection from '../components/CardSection'
 import Divider from '../components/Divider'
 import Hero from '../components/Hero'
 
@@ -7,6 +8,7 @@ const Main = () => {
     <>
     <Hero/>
     <Divider/>
+    <CardSection/>
     </>
   )
 }
