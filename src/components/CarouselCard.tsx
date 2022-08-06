@@ -1,6 +1,11 @@
-import React from 'react'
+import { categoriesImages } from '../data/imgs'
 
-const CarouselCard = () => {
+type cardProps={
+  name: string,
+  id: number
+}
+
+const CarouselCard = ({name , id}:cardProps) => {
   return (
 
 
@@ -8,9 +13,9 @@ const CarouselCard = () => {
 
     <div className="carousel-item ">
         <div className="card card-compact w-60 bg-slate-50 shadow-md image-full">
-          <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+          <figure><img src={categoriesImages[id-1]} alt="Shoes" /></figure>
           <div className="card-body grid justify-center">
-          <h2 className="card-title text-center ">Somewhere</h2>
+          <h2 className="card-title text-center ">{name}</h2>
           </div>
 </div>
         </div>
