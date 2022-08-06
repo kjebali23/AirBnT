@@ -1,5 +1,6 @@
 import React from 'react'
 import CardSection from '../components/CardSection'
+import Categories from '../components/Categories'
 import Companies from '../components/Companies'
 import Divider from '../components/Divider'
 import Footer from '../components/Footer'
@@ -9,8 +10,8 @@ const Main = () => {
   return (
     <>
     <Hero/>
-    <Divider/>
     <CardSection/>
+    <Categories/>
     <Companies/>
     <Footer/>
     </>
