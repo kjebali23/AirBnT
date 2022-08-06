@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className="navbar  drop-shadow-sm flex justify-between">
+    <div className="navbar  drop-shadow-sm flex justify-between ">
         <div className="flex-2">
             <a className="btn btn-ghost normal-case text-3xl text-slate-700">Airb&t</a>
         </div>

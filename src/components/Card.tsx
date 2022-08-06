@@ -1,14 +1,20 @@
-import React from 'react'
+import {cityImages} from "../data/imgs"
 
-const Card = () => {
+type cityProps={
+    cityName:string,
+    description:string
+    id:number
+}
+
+const Card = ({cityName , description , id}:cityProps) => {
   return (
-        <div className="card card-compact w-96 bg-base-100 shadow-xl ">
+        <div className="card card-compact w-96 bg-white shadow-xl ">
             <figure>
-                <img src="https://placeimg.com/400/225/arch"/>
+                <img  src={cityImages[id]}/>
             </figure>
-            <div className="card-body">
-                <h2 className="card-title">Test</h2>
-                <p>if a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-body flex items-center">
+                <h2 className="card-title text-black">{cityName}</h2>
+                <p className="text-black">{description}</p>
                 <div className="card-action justify-end">
                     <button className="btn btn-primary">See more</button>
                 </div>
