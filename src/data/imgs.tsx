@@ -11,3 +11,9 @@ export const categoriesImages: Array<string> =[
     "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
 ]
 
+export const pickImages: Array<string> = [
+    "https://images.unsplash.com/photo-1607869861980-da5f9b8b4969?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+    "https://lp-cms-production.imgix.net/image_browser/El-Jem-roman-ruins-tunisia.jpg",
+    "https://www.planetware.com/wpimages/2021/06/tunisia-travel-guide-inspirational-ideas-planning-trip-tunisia-camel-caraval-sahara.jpg"
+]
+

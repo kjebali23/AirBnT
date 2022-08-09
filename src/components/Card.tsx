@@ -8,7 +8,7 @@ type cityProps={
 
 const Card = ({cityName , description , id}:cityProps) => {
   return (
-        <div className="card card-compact w-96 bg-white shadow-xl ">
+        <div className="card card-compact w-80 bg-white shadow-xl ">
             <figure>
                 <img  src={cityImages[id]}/>
             </figure>
